@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580AD9A416156BBF00E82873 /* fbicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9A116156BBF00E82873 /* fbicon.png */; };
+		580AD9AA16156BD900E82873 /* pen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9A716156BD900E82873 /* pen1.png */; };
+		580AD9AB16156BD900E82873 /* pen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9A816156BD900E82873 /* pen2.png */; };
+		580AD9AC16156BD900E82873 /* pen3.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9A916156BD900E82873 /* pen3.png */; };
+		580AD9AE16156CAC00E82873 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9AD16156CAC00E82873 /* down.png */; };
+		580AD9B016156CB400E82873 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9AF16156CB300E82873 /* up.png */; };
+		580BE62E161587E9007C1342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ADE1EA15D9125900363991 /* main.m */; };
+		580BE62F161587E9007C1342 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ADE1EE15D9125900363991 /* AppDelegate.m */; };
+		580BE630161587E9007C1342 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ADE1F115D9125900363991 /* ViewController.m */; };
+		580BE631161587E9007C1342 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9BD7815DA796A00DFBC80 /* CanvasView.m */; };
+		580BE632161587E9007C1342 /* ColorEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9BD7C15DA7D2A00DFBC80 /* ColorEditView.m */; };
+		580BE633161587E9007C1342 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C72E1A15DE8A1B00D0931F /* DataManager.m */; };
+		580BE635161587E9007C1342 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EC4ACB16036886005B0FB3 /* libsqlite3.dylib */; };
+		580BE636161587E9007C1342 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C25AF715EA35E400E59EB4 /* QuartzCore.framework */; };
+		580BE637161587E9007C1342 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ADE1DE15D9125900363991 /* UIKit.framework */; };
+		580BE638161587E9007C1342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ADE1E015D9125900363991 /* Foundation.framework */; };
+		580BE639161587E9007C1342 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ADE1E215D9125900363991 /* CoreGraphics.framework */; };
+		580BE63A161587E9007C1342 /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C9396F15FE560D007C99CF /* libfacebook_ios_sdk.a */; };
+		580BE63C161587E9007C1342 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58ADE1E715D9125900363991 /* InfoPlist.strings */; };
+		580BE63E161587E9007C1342 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58C9396915FE560D007C99CF /* FBDialog.bundle */; };
+		580BE63F161587E9007C1342 /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 589A435F160F28F800A09099 /* Camera.png */; };
+		580BE640161587E9007C1342 /* dell3.png in Resources */ = {isa = PBXBuildFile; fileRef = 585F3E661612296800DFEE49 /* dell3.png */; };
+		580BE641161587E9007C1342 /* heart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 585F3E7016122EDF00DFEE49 /* heart.jpg */; };
+		580BE642161587E9007C1342 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 585F3E721612316B00DFEE49 /* facebook.png */; };
+		580BE643161587E9007C1342 /* save1.png in Resources */ = {isa = PBXBuildFile; fileRef = 585F3E7A1612399500DFEE49 /* save1.png */; };
+		580BE644161587E9007C1342 /* fbicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9A116156BBF00E82873 /* fbicon.png */; };
+		580BE645161587E9007C1342 /* pen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9A716156BD900E82873 /* pen1.png */; };
+		580BE646161587E9007C1342 /* pen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9A816156BD900E82873 /* pen2.png */; };
+		580BE647161587E9007C1342 /* pen3.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9A916156BD900E82873 /* pen3.png */; };
+		580BE648161587E9007C1342 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9AD16156CAC00E82873 /* down.png */; };
+		580BE649161587E9007C1342 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 580AD9AF16156CB300E82873 /* up.png */; };
+		580BE655161587EB007C1342 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 580BE653161587EB007C1342 /* ViewController.xib */; };
+		585F3E671612296800DFEE49 /* dell3.png in Resources */ = {isa = PBXBuildFile; fileRef = 585F3E661612296800DFEE49 /* dell3.png */; };
+		585F3E7116122EDF00DFEE49 /* heart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 585F3E7016122EDF00DFEE49 /* heart.jpg */; };
+		585F3E731612316B00DFEE49 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 585F3E721612316B00DFEE49 /* facebook.png */; };
+		585F3E7B1612399500DFEE49 /* save1.png in Resources */ = {isa = PBXBuildFile; fileRef = 585F3E7A1612399500DFEE49 /* save1.png */; };
+		589A4360160F28F800A09099 /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 589A435F160F28F800A09099 /* Camera.png */; };
+		58ADE1DF15D9125900363991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ADE1DE15D9125900363991 /* UIKit.framework */; };
+		58ADE1E115D9125900363991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ADE1E015D9125900363991 /* Foundation.framework */; };
+		58ADE1E315D9125900363991 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ADE1E215D9125900363991 /* CoreGraphics.framework */; };
+		58ADE1E915D9125900363991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58ADE1E715D9125900363991 /* InfoPlist.strings */; };
+		58ADE1EB15D9125900363991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ADE1EA15D9125900363991 /* main.m */; };
+		58ADE1EF15D9125900363991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ADE1EE15D9125900363991 /* AppDelegate.m */; };
+		58ADE1F215D9125900363991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ADE1F115D9125900363991 /* ViewController.m */; };
+		58ADE1F515D9125900363991 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58ADE1F315D9125900363991 /* ViewController.xib */; };
+		58C25AF815EA35E400E59EB4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C25AF715EA35E400E59EB4 /* QuartzCore.framework */; };
+		58C72E1B15DE8A1C00D0931F /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C72E1A15DE8A1B00D0931F /* DataManager.m */; };
+		58C9397615FE560D007C99CF /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58C9396915FE560D007C99CF /* FBDialog.bundle */; };
+		58C9397715FE560D007C99CF /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C9396F15FE560D007C99CF /* libfacebook_ios_sdk.a */; };
+		58E9BD7915DA796A00DFBC80 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9BD7815DA796A00DFBC80 /* CanvasView.m */; };
+		58E9BD7D15DA7D2A00DFBC80 /* ColorEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9BD7C15DA7D2A00DFBC80 /* ColorEditView.m */; };
+		58EC4ACC16036886005B0FB3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EC4ACB16036886005B0FB3 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		580AD9A116156BBF00E82873 /* fbicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbicon.png; sourceTree = "<group>"; };
+		580AD9A716156BD900E82873 /* pen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen1.png; sourceTree = "<group>"; };
+		580AD9A816156BD900E82873 /* pen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen2.png; sourceTree = "<group>"; };
+		580AD9A916156BD900E82873 /* pen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen3.png; sourceTree = "<group>"; };
+		580AD9AD16156CAC00E82873 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		580AD9AF16156CB300E82873 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		580BE64D161587E9007C1342 /* TouchPaintApp-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TouchPaintApp-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		580BE652161587EA007C1342 /* TouchPaintApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TouchPaintApp copy-Info.plist"; path = "/Users/fexd/Desktop/x-code/Devlopment/02.App_Iphone/TouchPaintApp/TouchPaintApp/TouchPaintApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		580BE654161587EB007C1342 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/TouchPaintApp/en.lproj/ViewController.xib"; sourceTree = "<group>"; };
+		585F3E661612296800DFEE49 /* dell3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dell3.png; sourceTree = "<group>"; };
+		585F3E7016122EDF00DFEE49 /* heart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heart.jpg; sourceTree = "<group>"; };
+		585F3E721612316B00DFEE49 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		585F3E7A1612399500DFEE49 /* save1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save1.png; sourceTree = "<group>"; };
+		589A435F160F28F800A09099 /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		58ADE1DA15D9125900363991 /* TouchPaintApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPaintApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58ADE1DE15D9125900363991 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58ADE1E015D9125900363991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58ADE1E215D9125900363991 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58ADE1E615D9125900363991 /* TouchPaintApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchPaintApp-Info.plist"; sourceTree = "<group>"; };
+		58ADE1E815D9125900363991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58ADE1EA15D9125900363991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58ADE1EC15D9125900363991 /* TouchPaintApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchPaintApp-Prefix.pch"; sourceTree = "<group>"; };
+		58ADE1ED15D9125900363991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58ADE1EE15D9125900363991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58ADE1F015D9125900363991 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58ADE1F115D9125900363991 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58ADE1F415D9125900363991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		58C25AF715EA35E400E59EB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		58C72E1915DE8A1B00D0931F /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		58C72E1A15DE8A1B00D0931F /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		58C9396715FE560D007C99CF /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		58C9396815FE560D007C99CF /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		58C9396915FE560D007C99CF /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		58C9396A15FE560D007C99CF /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		58C9396B15FE560D007C99CF /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		58C9396C15FE560D007C99CF /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		58C9396D15FE560D007C99CF /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		58C9396E15FE560D007C99CF /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		58C9396F15FE560D007C99CF /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		58C9397015FE560D007C99CF /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		58C9397115FE560D007C99CF /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		58C9397215FE560D007C99CF /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		58C9397315FE560D007C99CF /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		58C9397415FE560D007C99CF /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		58C9397515FE560D007C99CF /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		58E9BD7715DA796A00DFBC80 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		58E9BD7815DA796A00DFBC80 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		58E9BD7B15DA7D2A00DFBC80 /* ColorEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorEditView.h; sourceTree = "<group>"; };
+		58E9BD7C15DA7D2A00DFBC80 /* ColorEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorEditView.m; sourceTree = "<group>"; };
+		58EB69181602486E0012F88E /* fbicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbicon.png; sourceTree = "<group>"; };
+		58EC4ACB16036886005B0FB3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		58F47A96160F33DF00AB790C /* pen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen2.png; sourceTree = "<group>"; };
+		58F47A98160F342800AB790C /* pen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen1.png; sourceTree = "<group>"; };
+		58F47A9A160F349F00AB790C /* pen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580BE634161587E9007C1342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580BE635161587E9007C1342 /* libsqlite3.dylib in Frameworks */,
+				580BE636161587E9007C1342 /* QuartzCore.framework in Frameworks */,
+				580BE637161587E9007C1342 /* UIKit.framework in Frameworks */,
+				580BE638161587E9007C1342 /* Foundation.framework in Frameworks */,
+				580BE639161587E9007C1342 /* CoreGraphics.framework in Frameworks */,
+				580BE63A161587E9007C1342 /* libfacebook_ios_sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ADE1D715D9125900363991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EC4ACC16036886005B0FB3 /* libsqlite3.dylib in Frameworks */,
+				58C25AF815EA35E400E59EB4 /* QuartzCore.framework in Frameworks */,
+				58ADE1DF15D9125900363991 /* UIKit.framework in Frameworks */,
+				58ADE1E115D9125900363991 /* Foundation.framework in Frameworks */,
+				58ADE1E315D9125900363991 /* CoreGraphics.framework in Frameworks */,
+				58C9397715FE560D007C99CF /* libfacebook_ios_sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580BE651161587EA007C1342 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				580BE653161587EB007C1342 /* ViewController.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		58ADE1CF15D9125900363991 = {
+			isa = PBXGroup;
+			children = (
+				580BE651161587EA007C1342 /* Resources-iPad */,
+				58ADE1E415D9125900363991 /* TouchPaintApp */,
+				58ADE1DD15D9125900363991 /* Frameworks */,
+				58ADE1DB15D9125900363991 /* Products */,
+				580BE652161587EA007C1342 /* TouchPaintApp copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		58ADE1DB15D9125900363991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58ADE1DA15D9125900363991 /* TouchPaintApp.app */,
+				580BE64D161587E9007C1342 /* TouchPaintApp-iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58ADE1DD15D9125900363991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58EC4ACB16036886005B0FB3 /* libsqlite3.dylib */,
+				58C25AF715EA35E400E59EB4 /* QuartzCore.framework */,
+				58ADE1DE15D9125900363991 /* UIKit.framework */,
+				58ADE1E015D9125900363991 /* Foundation.framework */,
+				58ADE1E215D9125900363991 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58ADE1E415D9125900363991 /* TouchPaintApp */ = {
+			isa = PBXGroup;
+			children = (
+				58C9396615FE560D007C99CF /* facebook-ios-sdk */,
+				58ADE1ED15D9125900363991 /* AppDelegate.h */,
+				58ADE1EE15D9125900363991 /* AppDelegate.m */,
+				58ADE1F015D9125900363991 /* ViewController.h */,
+				58ADE1F115D9125900363991 /* ViewController.m */,
+				58ADE1F315D9125900363991 /* ViewController.xib */,
+				58ADE1E515D9125900363991 /* Supporting Files */,
+				58E9BD7715DA796A00DFBC80 /* CanvasView.h */,
+				58E9BD7815DA796A00DFBC80 /* CanvasView.m */,
+				58E9BD7B15DA7D2A00DFBC80 /* ColorEditView.h */,
+				58E9BD7C15DA7D2A00DFBC80 /* ColorEditView.m */,
+				58C72E1915DE8A1B00D0931F /* DataManager.h */,
+				58C72E1A15DE8A1B00D0931F /* DataManager.m */,
+			);
+			path = TouchPaintApp;
+			sourceTree = "<group>";
+		};
+		58ADE1E515D9125900363991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				580AD9AF16156CB300E82873 /* up.png */,
+				580AD9AD16156CAC00E82873 /* down.png */,
+				580AD9A716156BD900E82873 /* pen1.png */,
+				580AD9A816156BD900E82873 /* pen2.png */,
+				580AD9A916156BD900E82873 /* pen3.png */,
+				580AD9A116156BBF00E82873 /* fbicon.png */,
+				585F3E7A1612399500DFEE49 /* save1.png */,
+				585F3E721612316B00DFEE49 /* facebook.png */,
+				585F3E7016122EDF00DFEE49 /* heart.jpg */,
+				585F3E661612296800DFEE49 /* dell3.png */,
+				58F47A9A160F349F00AB790C /* pen3.png */,
+				58F47A98160F342800AB790C /* pen1.png */,
+				58F47A96160F33DF00AB790C /* pen2.png */,
+				589A435F160F28F800A09099 /* Camera.png */,
+				58EB69181602486E0012F88E /* fbicon.png */,
+				58ADE1E615D9125900363991 /* TouchPaintApp-Info.plist */,
+				58ADE1E715D9125900363991 /* InfoPlist.strings */,
+				58ADE1EA15D9125900363991 /* main.m */,
+				58ADE1EC15D9125900363991 /* TouchPaintApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58C9396615FE560D007C99CF /* facebook-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				58C9396715FE560D007C99CF /* Facebook.h */,
+				58C9396815FE560D007C99CF /* FBConnect.h */,
+				58C9396915FE560D007C99CF /* FBDialog.bundle */,
+				58C9396A15FE560D007C99CF /* FBDialog.h */,
+				58C9396B15FE560D007C99CF /* FBFrictionlessRequestSettings.h */,
+				58C9396C15FE560D007C99CF /* FBLoginDialog.h */,
+				58C9396D15FE560D007C99CF /* FBRequest.h */,
+				58C9396E15FE560D007C99CF /* JSON.h */,
+				58C9396F15FE560D007C99CF /* libfacebook_ios_sdk.a */,
+				58C9397015FE560D007C99CF /* NSObject+SBJSON.h */,
+				58C9397115FE560D007C99CF /* NSString+SBJSON.h */,
+				58C9397215FE560D007C99CF /* SBJSON.h */,
+				58C9397315FE560D007C99CF /* SBJsonBase.h */,
+				58C9397415FE560D007C99CF /* SBJsonParser.h */,
+				58C9397515FE560D007C99CF /* SBJsonWriter.h */,
+			);
+			path = "facebook-ios-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580BE62C161587E9007C1342 /* TouchPaintApp-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580BE64A161587E9007C1342 /* Build configuration list for PBXNativeTarget "TouchPaintApp-iPad" */;
+			buildPhases = (
+				580BE62D161587E9007C1342 /* Sources */,
+				580BE634161587E9007C1342 /* Frameworks */,
+				580BE63B161587E9007C1342 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TouchPaintApp-iPad";
+			productName = TouchPaintApp;
+			productReference = 580BE64D161587E9007C1342 /* TouchPaintApp-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58ADE1D915D9125900363991 /* TouchPaintApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58ADE1F815D9125900363991 /* Build configuration list for PBXNativeTarget "TouchPaintApp" */;
+			buildPhases = (
+				58ADE1D615D9125900363991 /* Sources */,
+				58ADE1D715D9125900363991 /* Frameworks */,
+				58ADE1D815D9125900363991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchPaintApp;
+			productName = TouchPaintApp;
+			productReference = 58ADE1DA15D9125900363991 /* TouchPaintApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58ADE1D115D9125900363991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Fexd;
+			};
+			buildConfigurationList = 58ADE1D415D9125900363991 /* Build configuration list for PBXProject "TouchPaintApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58ADE1CF15D9125900363991;
+			productRefGroup = 58ADE1DB15D9125900363991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58ADE1D915D9125900363991 /* TouchPaintApp */,
+				580BE62C161587E9007C1342 /* TouchPaintApp-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580BE63B161587E9007C1342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580BE63C161587E9007C1342 /* InfoPlist.strings in Resources */,
+				580BE63E161587E9007C1342 /* FBDialog.bundle in Resources */,
+				580BE63F161587E9007C1342 /* Camera.png in Resources */,
+				580BE640161587E9007C1342 /* dell3.png in Resources */,
+				580BE641161587E9007C1342 /* heart.jpg in Resources */,
+				580BE642161587E9007C1342 /* facebook.png in Resources */,
+				580BE643161587E9007C1342 /* save1.png in Resources */,
+				580BE644161587E9007C1342 /* fbicon.png in Resources */,
+				580BE645161587E9007C1342 /* pen1.png in Resources */,
+				580BE646161587E9007C1342 /* pen2.png in Resources */,
+				580BE647161587E9007C1342 /* pen3.png in Resources */,
+				580BE648161587E9007C1342 /* down.png in Resources */,
+				580BE649161587E9007C1342 /* up.png in Resources */,
+				580BE655161587EB007C1342 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ADE1D815D9125900363991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ADE1E915D9125900363991 /* InfoPlist.strings in Resources */,
+				58ADE1F515D9125900363991 /* ViewController.xib in Resources */,
+				58C9397615FE560D007C99CF /* FBDialog.bundle in Resources */,
+				589A4360160F28F800A09099 /* Camera.png in Resources */,
+				585F3E671612296800DFEE49 /* dell3.png in Resources */,
+				585F3E7116122EDF00DFEE49 /* heart.jpg in Resources */,
+				585F3E731612316B00DFEE49 /* facebook.png in Resources */,
+				585F3E7B1612399500DFEE49 /* save1.png in Resources */,
+				580AD9A416156BBF00E82873 /* fbicon.png in Resources */,
+				580AD9AA16156BD900E82873 /* pen1.png in Resources */,
+				580AD9AB16156BD900E82873 /* pen2.png in Resources */,
+				580AD9AC16156BD900E82873 /* pen3.png in Resources */,
+				580AD9AE16156CAC00E82873 /* down.png in Resources */,
+				580AD9B016156CB400E82873 /* up.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580BE62D161587E9007C1342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580BE62E161587E9007C1342 /* main.m in Sources */,
+				580BE62F161587E9007C1342 /* AppDelegate.m in Sources */,
+				580BE630161587E9007C1342 /* ViewController.m in Sources */,
+				580BE631161587E9007C1342 /* CanvasView.m in Sources */,
+				580BE632161587E9007C1342 /* ColorEditView.m in Sources */,
+				580BE633161587E9007C1342 /* DataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ADE1D615D9125900363991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ADE1EB15D9125900363991 /* main.m in Sources */,
+				58ADE1EF15D9125900363991 /* AppDelegate.m in Sources */,
+				58ADE1F215D9125900363991 /* ViewController.m in Sources */,
+				58E9BD7915DA796A00DFBC80 /* CanvasView.m in Sources */,
+				58E9BD7D15DA7D2A00DFBC80 /* ColorEditView.m in Sources */,
+				58C72E1B15DE8A1C00D0931F /* DataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		580BE653161587EB007C1342 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580BE654161587EB007C1342 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		58ADE1E715D9125900363991 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58ADE1E815D9125900363991 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58ADE1F315D9125900363991 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58ADE1F415D9125900363991 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580BE64B161587E9007C1342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchPaintApp/TouchPaintApp-Prefix.pch";
+				INFOPLIST_FILE = "TouchPaintApp copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/TouchPaintApp/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "TouchPaintApp-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		580BE64C161587E9007C1342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchPaintApp/TouchPaintApp-Prefix.pch";
+				INFOPLIST_FILE = "TouchPaintApp copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/TouchPaintApp/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "TouchPaintApp-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		58ADE1F615D9125900363991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58ADE1F715D9125900363991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58ADE1F915D9125900363991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchPaintApp/TouchPaintApp-Prefix.pch";
+				INFOPLIST_FILE = "TouchPaintApp/TouchPaintApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/TouchPaintApp/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58ADE1FA15D9125900363991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchPaintApp/TouchPaintApp-Prefix.pch";
+				INFOPLIST_FILE = "TouchPaintApp/TouchPaintApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/TouchPaintApp/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580BE64A161587E9007C1342 /* Build configuration list for PBXNativeTarget "TouchPaintApp-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580BE64B161587E9007C1342 /* Debug */,
+				580BE64C161587E9007C1342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58ADE1D415D9125900363991 /* Build configuration list for PBXProject "TouchPaintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ADE1F615D9125900363991 /* Debug */,
+				58ADE1F715D9125900363991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58ADE1F815D9125900363991 /* Build configuration list for PBXNativeTarget "TouchPaintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ADE1F915D9125900363991 /* Debug */,
+				58ADE1FA15D9125900363991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58ADE1D115D9125900363991 /* Project object */;
+}
